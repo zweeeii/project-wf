@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+         url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+         url('PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Additional styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Set Poppins as the primary font for the body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* Use Playfair Display for headings */
+}
+
+/* Add any other styles or overrides below */

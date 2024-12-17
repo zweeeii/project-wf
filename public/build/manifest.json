@@ -1,0 +1,30 @@
+{
+  "resources/fonts/PlayfairDisplay-Regular.ttf": {
+    "file": "assets/PlayfairDisplay-Regular-b8a7be4d.ttf",
+    "src": "resources/fonts/PlayfairDisplay-Regular.ttf"
+  },
+  "resources/fonts/Poppins-Regular.ttf": {
+    "file": "assets/Poppins-Regular-707fdc5c.ttf",
+    "src": "resources/fonts/Poppins-Regular.ttf"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-443fc2b5.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/Poppins-Regular-707fdc5c.ttf",
+      "assets/PlayfairDisplay-Regular-b8a7be4d.ttf"
+    ],
+    "css": [
+      "assets/app-443fc2b5.css"
+    ],
+    "file": "assets/app-0e617dc6.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-443fc2b5.css",
+    "src": "resources/js/app.css"
+  }
+}

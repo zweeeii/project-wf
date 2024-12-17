@@ -1,0 +1,24 @@
+@use "variables" as *;
+@use "framework" as *;
+
+.nav {
+    @include flex-center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    
+    @at-root #{&}__a {
+        margin: 0 15px;
+        color: $main-color;
+        font-size: $font-s3;
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+            color: $accent-color; // Change color on hover
+        }
+    }
+
+    @at-root #{&}__active {
+        color: $color-green; // Active link color
+    }
+}

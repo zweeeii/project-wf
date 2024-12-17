@@ -1,0 +1,25 @@
+@import "font-face";
+
+// Body
+$body-bg: #ffffff; // White background for a clean look
+
+// Typography
+$font-primary: "Open Sans"; // Clean sans-serif font for easy reading
+$font-secondary: "Merriweather"; // Serif font for headings
+$font-s1: 2.5rem; // Large heading
+$font-s2: 1.8rem; // Subheading
+$font-s3: 1.4rem; // Normal text
+$font-s4: 1rem; // Small text
+$font-s5: 0.9rem; // Extra small text
+
+// Colors
+$main-color: #333333; // Dark gray for text
+$secondary-color: #F8C471; // Soft yellow for highlights
+$accent-color: #C0392B; // Red for alerts and emphasis
+$color-green: #2ECC71; // Green for success messages
+$color-red: #E74C3C; // Red for errors and alerts
+$color-muted: #7F8C8D; // Muted gray for less emphasis
+
+// Borders
+$main-border: 1px solid #DCDCDC; // Light gray borders
+$main-border-radius: 8px; // Rounded corners

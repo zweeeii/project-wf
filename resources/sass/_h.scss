@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+.h {
+    width: fit-content;
+}
+
+.h1 {
+    @extend .h;
+    color: $main-color;
+    font-size: $font-s1;
+    margin-bottom: 20px;
+    text-align: center; // Center-align for titles
+}
+
+.h2 {
+    @extend .h;
+    color: $secondary-color;
+    font-size: $font-s2;
+    margin-bottom: 15px;
+}
+
+.h3 {
+    @extend .h;
+    color: $main-color;
+    font: {
+        size: $font-s3;
+    }
+}

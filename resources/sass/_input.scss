@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+.input {
+    width: 100%;
+    padding: 10px;
+    color: $main-color;
+    background-color: #ffffff; // White background for inputs
+    font: {
+        size: $font-s4;
+    }
+    outline: none;
+    border: 1px solid $main-border;
+    border-radius: $main-border-radius;
+    transition: border 0.3s;
+
+    &:focus {
+        border: 2px solid $color-green; // Highlight border on focus
+    }
+}

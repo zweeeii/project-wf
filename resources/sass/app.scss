@@ -1,0 +1,63 @@
+// Variables
+@use "variables" as *;
+
+// Framework
+@import "framework";
+
+// Table
+@import "table";
+
+// Hx e.g. h1, h2, h3, etc...
+@import "h";
+
+// Buttons
+@import "button";
+
+// Input
+@import "input";
+
+// Nav
+@import "nav";
+
+// Resources
+@import "resources";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: {
+        family: $font-primary;
+        size: $font-s4; // Base font size
+        weight: normal;
+        style: normal;
+    }
+    background-color: $body-bg; // Use the defined body background
+}
+
+// Link styles
+a {
+    color: $main-color;
+    transition: color 0.3s;
+
+    &:hover {
+        color: $accent-color; // Hover color
+    }
+}
+
+#app {
+    width: 90%;
+    margin: auto;
+    flex: 1;
+}
+
+.footer {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    color: $color-muted;
+    font-size: $font-s5;
+}

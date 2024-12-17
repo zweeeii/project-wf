@@ -1,0 +1,25 @@
+@use "variables" as *;
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Merriweather:wght@400;700&display=swap');
+
+// Variables for images
+$logo-image: "path/to/logo.png"; // Replace with your logo path
+$banner-image: "path/to/banner.jpg"; // Replace with your banner path
+
+// Example of using the images in styles
+.logo {
+    background-image: url(#{$logo-image});
+    width: 150px; // Adjust width according to your design
+    height: 50px; // Adjust height according to your design
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    background-image: url(#{$banner-image});
+    width: 100%;
+    height: 300px; // Adjust according to your banner design
+    background-size: cover; // Ensures the image covers the area
+    background-position: center; // Center the image
+}
